@@ -68,3 +68,8 @@ The unique ID of Winston is 3.
 The unique ID of Jonathan is 1.
 
 
+# Write your MySQL query statement below
+select emp.name, eu.unique_id
+from Employees emp
+left join 
+EmployeeUNI eu on emp.id = eu.id
